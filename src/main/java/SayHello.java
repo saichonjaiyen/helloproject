@@ -8,9 +8,8 @@
  *
  * @author saichon.ja
  */
-public class Hello {
-    public static void main(String[] args) {
-        SayHello obj = new SayHello();
-        obj.say();
+public class SayHello {
+    public void say(){
+        System.out.println("Hello");
     }
 }
